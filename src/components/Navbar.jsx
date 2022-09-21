@@ -32,6 +32,11 @@ const Navbar = () => {
           <div>
             <button onClick={() => logout()}>Log out</button>
           </div>
+          <div>
+          <Link to="/addvideo">
+            <span>Add Video</span>
+          </Link>
+          </div>
         </>
       )}
     </nav>
